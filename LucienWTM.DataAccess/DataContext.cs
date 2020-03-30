@@ -29,7 +29,7 @@ namespace LucienWTM.DataAccess
     {
         public DataContext CreateDbContext(string[] args)
         {
-            return new DataContext("你的完整连接字符串", DBTypeEnum.SqlServer);
+            return new DataContext("Server=106.54.119.111;Database=ZLForWTM_db;User ID=sa;Password=ZHAOliang.1994;Trusted_Connection=True;Integrated Security=false;", DBTypeEnum.SqlServer);
         }
     }
 
